@@ -109,7 +109,7 @@ class User(db.Model, UserMixin, CRUDMixin):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(200), unique=True, nullable=False)
     email = db.Column(db.String(200), unique=True, nullable=False)
-    _password = db.Column("password", db.String(120), nullable=False)
+    _password = db.Column("password", db.String(255), nullable=False)
     date_joined = db.Column(
         UTCDateTime(timezone=True), default=time_utcnow, nullable=False
     )
