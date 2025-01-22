@@ -34,6 +34,17 @@ $fbb-link-hover-color: #275b89;
 $fbb-bg-dark: #f6f9fc;
 $fbb-bg-light: #fff;
 
+$bg-primary: #000000;
+$bg-secondary: #0a0a0a;
+$text-bright: #ffffff;
+$text-dim: #cccccc;
+$border-color: #333333;
+$hover-color: rgba(255, 255, 255, 0.1);
+
+// Font Import
+@import url('https://fonts.cdnjs.cloudflare.com/ajax/libs/Press+Start+2P/4.0.0/font.css');
+$font-family-base: 'Press Start 2P', cursive;
+
 
 // header && footer colors
 $fbb-header-title-color: #fff;
@@ -41,6 +52,7 @@ $fbb-header-subtitle-color: #E8F1F2;
 $fbb-header-bg-primary: #0088cc;  // old: #3276b1
 $fbb-header-bg-secondary: #285e8e;
 $fbb-footer-bg: #333333;
+
 
 $fbb-navigation-color: #555;
 $fbb-navigation-bg: #f8f8f8;
